@@ -1,0 +1,224 @@
+$headerbackgroundcolor:#e28b1a; // цвет фона хэдэра
+$textIndexMainStyle: font-size, 100px;
+$maincolor: #1b2325;
+$footercolor: #524d47;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+background-color: $footercolor;
+}
+
+.indexupblock
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2%;
+}
+
+    
+
+
+.indexupphoto
+    {
+        width: 20%;
+        margin: 1%;
+        border-radius: 50%;
+        border: 2px solid;
+        box-shadow: 5px 5px 15px 5px #2a87d3;
+
+}
+
+
+.blockNameText
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+
+.optionstext
+    {
+        font-size: 18px;
+        color: aqua;
+        text-align: center;
+}
+
+
+.upPhotoAvatar
+    {
+        width: 100%;
+        border-radius: 50%;
+}
+
+.name
+{
+            
+    color: yellow;
+    margin-bottom: 5%;
+}
+
+
+h1
+{
+            
+}
+        
+
+.indexgrouplinks
+{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color:$headerbackgroundcolor;          
+        align-items: center;
+        padding-bottom: 1%;
+        padding-top: 1%;
+
+}
+
+a{
+    
+}
+    
+.indexlink
+{
+    text-decoration: none;
+}
+
+
+.ulindexlink
+{
+    display: flex;
+}
+
+.IndeInfoText
+{
+font-size: 24px;
+color:rgb(172, 172, 214);
+text-align: center;
+margin-bottom: 5%;
+
+}
+
+
+.indexbox
+{   
+max-width: 2400px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+            
+}
+
+.main{
+    
+    background-color: $maincolor;
+
+   
+        
+        
+}
+
+.flexMainIndex
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_block_video_info
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.indexmainvideo
+{
+width: 47%;
+min-height: 300px;
+background-color: brown;
+border: 2px solid;
+margin-bottom: 2%;
+    
+}
+
+.indexmaininfo
+{
+width: 47%;
+background-color: rgb(32, 102, 61);
+border: 2px solid;
+margin-bottom: 2%;
+display: flex;
+align-items: center;    
+min-height: 300px;
+}
+
+
+
+.textIndexMain
+{
+
+font-size:20px;
+padding: 2%;
+text-align: center;
+}
+
+.sliderIndex
+{
+width: 85%;
+min-height: 250px;
+background-color: rgb(82, 24, 90);
+border: 2px solid;
+margin-top: 2%;
+margin-bottom: 2%;
+
+}
+
+
+
+.footer{
+background-color: $footercolor;
+
+    .footerBlockSocialNet
+    {
+    display: flex;
+    justify-content: space-around;
+
+    }
+
+    .nameSocialNet
+    {
+    display: flex;
+    align-items: center;
+
+    }
+
+    .icon_index
+    {
+    width: 100%;
+
+    }
+
+
+    .flexBoxFooter
+    {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    justify-content: space-around;
+
+    }
+  
+}
+    
+

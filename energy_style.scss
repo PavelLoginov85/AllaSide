@@ -1,0 +1,584 @@
+$color_h1tab_woman_session:#e2f110de; // H1 зоголовки 
+$colorbackmain: #181515;
+$footer_back_color:#11a579;
+$color_text: #eee9e9; // цвет текста во вкладках
+
+
+// цвета вкладки 
+#tab_woman_power{background-color: rgb(48, 12, 12);}
+#tab_your_body{background-color: rgb(224, 238, 224);}
+#tab_schenneling{background-color:rgb(123, 123, 189) ;}
+#tab_clearing{background-color:yellowgreen ;}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: #556677;
+
+}
+
+.energy_session_box{
+    max-width: 2400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction:column;
+                
+}
+
+
+
+.h1_session_up{
+    font-size: 50px;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+    color: #e0dfdc;
+    letter-spacing: 0.1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+
+.energy_group_links{
+
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-around;
+    width: 100%;
+
+    .indexlink
+    {
+        text-decoration: none;
+        color: #010808;
+        font-size: larger;
+
+        
+    }
+
+
+}
+
+.buttons_links_block
+{
+
+
+}
+
+
+.main{
+   background-color: $colorbackmain;
+   
+}
+
+
+.button_and_tabs
+{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+}
+
+.tablinks
+{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1%;
+    cursor: pointer;
+    color: #c16b6b;
+    font-weight: bold;
+    min-width: 10%;
+}
+
+.tablinks:hover{
+    color: #0f0c0f;
+    font-size: larger;
+}
+
+.group_tabs
+{
+    width: 100%;
+}
+
+.tabcontent
+{
+    display: none;
+    height: 100%;
+    padding-top: 4%;
+    border-radius: 0px 10px 10px 10px;
+    color: $color_text;
+}
+
+// ------------------------------- Вкладка Принятие своего тела и себя ---------------------------------
+
+.body_block{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .your_body
+    {
+
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(14, 13, 13);
+        width: 85%;
+        margin-bottom: 3%;
+        border-radius: 15px;
+        padding: 0% 3% 0% 3%;
+        box-shadow: 5px 5px 15px 5px #2a87d3;
+
+    }
+
+
+    .name_energy_session
+    {
+        color: $color_h1tab_woman_session;
+        font-size: 36px;
+        display: flex;
+        font-size: 36px;
+        justify-content: center;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        text-align: center;
+
+        
+    }
+
+
+    .your_body_slider
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 3%;
+        
+    }
+
+}
+
+.slider_feedback
+{
+
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid black;
+    border-radius: 12px;
+
+}
+    
+.slider_w
+{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+               
+.next_button,.previous_button
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    width: 50px;
+    height: 50px;
+    border: non;
+    font-size: 24px;
+    
+}
+
+
+.previous_button:hover{
+    opacity: 0.8;
+    background-color: #1d1566;
+}
+
+
+.next_button
+{
+    right: 10px;
+    background-color: #8baba1;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+.next_button:hover
+{
+    opacity: 0.8;
+    background-color: #1d1566;
+
+}
+
+
+
+.previous_button
+{
+    left: 10px;
+    background-color: #8baba1;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+
+.img, .img2
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    
+
+
+.block_group_text
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.block_text_session
+{
+    text-align: center;
+    padding-bottom: 4%;
+      
+}
+
+.your_body_cost_block
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(14, 13, 13);
+    margin-bottom: 4%;
+    height: 50px;
+}
+
+.your_body_cost_block_pricetext
+{
+    display: flex;
+    align-items: center;
+}
+
+.text_cost
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: $color_h1tab_woman_session;
+}
+
+
+.img1
+{
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+
+
+// ------------------------------- Конец Вкладки Принятие своего тела и себя ---------------------------------
+
+
+// -----------------------------------------  вкладка сила женщины --------------------------------------------
+// -------------------------------------------------------------------------------------------------------------
+
+.block_energy_intro_text
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 13, 13);
+    width: 84%;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    padding: 0% 3% 0% 3%;
+    box-shadow: 5px 5px 15px 5px #aec722;
+}
+
+
+.h1_energy_intro_text
+{
+    color: rgba(226, 241, 16, 0.8705882353);
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+
+}
+
+.energy_intro_text
+{
+    
+}
+
+.p_energy_intro_text
+{
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.flex_your_body_cost_block
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.block_text_button_buy
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info_cost
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.info_cost_text
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(226, 241, 16, 0.8705882353);
+}
+
+.button_buy
+{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.butt
+{
+    width: 80%;
+    padding: 3%;
+    border-radius: 12px;
+
+}
+
+
+// ------------------------------------------ accordion сила женщины  -----------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+.accordion_woman{
+
+    margin-bottom: 3%;
+    width: 90%;
+    
+   
+
+    .accordion_item
+    {
+        border-radius:2%;
+        
+
+    .accord_header
+    {
+        padding-left: 2%;
+        color: #432525;
+    }
+
+    
+    
+    
+    .accord_sign
+    {
+        padding-right: 2%;
+    }
+
+    .acc_body
+    {
+        background-color: azure;      
+        display: none;
+        border: 1px solid black;
+        padding-bottom: 1%;
+        overflow: hidden;
+        
+    }
+  
+  .text_accord
+  {
+    color:black;
+    display: flex;
+    justify-content: center;
+    padding:1%;
+    justify-content: left;
+
+  }
+  
+
+  .border_up
+  {
+    border-radius: 2px 2px 0px 0px;
+  }
+  
+  .border_down
+  {
+    border-radius: 0px 0px 2px 2px;
+  }
+
+  }
+
+
+}
+
+
+.active,.accord_header_sign:hover
+    {
+        background-color: #0ca325;
+        color: yellow;
+    }
+
+.accord_header_sign
+{
+    display: flex;
+    background-color: #f1d789;
+    justify-content: space-between;
+    color: #0eadad;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    border: 1px solid black;
+    padding: 2% 1% 2% 1%;
+
+            
+}
+
+// --------------------------------------------------------------------------------------------------------------
+
+
+
+
+.slider_box
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 3%;
+
+}
+
+.slider_feedback
+{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.slider, .slider_block
+{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.next_button1, .next_button2
+{
+    right: 10px;
+    background-color: #8baba1;
+    opacity: 0.3;
+    border-radius: 50%;
+
+}
+
+.previous_button1, .previous_button2
+{
+    left: 10px;
+    background-color: #8baba1;
+    opacity: 0.3;
+    border-radius: 50%;
+
+}
+
+.next_button1,.previous_button1, .previous_button2, .next_button2
+{
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 24px;
+            
+}
+
+
+.previous_button1:hover{
+    opacity: 0.8;
+    background-color: #1d1566;
+
+}
+       
+
+.next_button1:hover
+{
+    opacity: 0.8;
+    background-color: #1d1566;
+
+}
+        
+// ------------------------------------------- footer  --------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------
+
+
+.footer_energy_sessions
+{
+
+background-color: $footer_back_color;
+
+    .flexBoxFooter
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        min-height: 100px;
+        justify-content: space-around;
+    }
+
+    .footerBlockSocialNet
+    {
+        display: flex;
+    }
+
+    .iconSocialNet
+    {
+
+    }
+
+    .nameSocialNet
+    {
+        display: flex;
+        align-items: center;
+    }
+}
+
+

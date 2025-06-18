@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+.header
+ {
+    background: #556677;
+  }
+
+
+.consultation_box
+{
+    max-width: 2400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.consultations_info_up
+{
+
+}
+
+.h1_consultation_up
+{
+    font-size: 50px;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    min-height: 150px;
+    color: #e0dfdc;
+    letter-spacing: 0.1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9); 
+}
+
+
+.consultationlinks
+{
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.ulindexlink
+{
+    color: #1bc9e0;
+}
+
+.indexlink
+{
+    text-decoration: none;
+    color: #1bc9e0;
+    font-size: larger;
+}
+
+.main{
+
+    background-color: #68e1f1;
+
+    .block_photo_text{
+        display: flex;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .photo_text_consult{
+        width: 48%;
+        margin: 1% 2% 1% 2%;
+        
+        
+    }
+
+    .consultImg{
+        width: 100%;    
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+}
+
+.consult_buttons_and_tabs{
+
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+    .info_text_reqwest
+    {
+        color: #f1e7e7;;
+    }
+
+    .description_text
+    {
+        color: #aec562;
+        display: flex;
+        font-size: 45px;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+
+
+    .tablinks
+    {
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: gray;
+        border-radius: 10px 10px 0px 0px;
+        padding: 1%;
+        cursor: pointer;
+        color: azure;
+    }
+
+    .group_tabs
+    {
+        width: 100%;
+    }
+
+
+    .tabcontent
+    {
+        background-color: blue;
+        border-radius: 0px 8px 8px 8px;
+        padding: 3% 2%;
+    }
+
+}
+
+#tab_format
+    {
+        background-color: green;
+    }
+    
+    #tab_reqwest
+    {
+        background-color: blue;
+    }
